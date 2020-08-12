@@ -1,1 +1,1 @@
-alert("Hi, this is a text");
+import '../styles/styles.css'

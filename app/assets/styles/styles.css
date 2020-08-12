@@ -1,0 +1,11 @@
+body{
+    color: green;
+}
+
+$mainColor: #2f5572;
+
+.large-menu {
+    h2 {
+        color: $mainColor;
+    }
+}
