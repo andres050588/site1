@@ -16,8 +16,14 @@
             </ul>
         </nav>
     </header>
+
     <main class="large-hero">
-        <img src="assets/images/hero--large.jpg" alt="view escapes">
+        <picture>
+            <source media="(min-width: 1200px)" srcset="assets/images/hero--large.jpg">
+            <source media="(min-width: 800px)" srcset="assets/images/hero--medium.jpg">
+            <source media="(min-width: 570px)" srcset="assets/images/hero--small.jpg">
+            <img src="assets/images/hero--smaller.jpg" alt="Ocean view and mountains">
+        </picture>
         <div class="large-hero__text-content">
             <h1 class="large-hero__title">Your Clarity</h1>
             <h2 class="large-hero__subtitle">One Trip Away</h2>
