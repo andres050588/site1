@@ -5,6 +5,7 @@
     color: #FFF;
     display: inline-block;
     border-radius: 3px;
+    font-weight: 500;
 
     &--orange{
         background-color: $mainOrange;
