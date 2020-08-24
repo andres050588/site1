@@ -9,6 +9,12 @@
         max-width: 980px;
     }
 
+    &__site-header{
+        max-width: 1200px;
+        margin: 0 100px 0 100px;
+        position: relative;
+    }
+
     &__no-padding-until-large{
         padding-left: 0px;
         padding-right: 0px;
