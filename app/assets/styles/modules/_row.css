@@ -39,6 +39,10 @@
             float: left;
             width: 33.33%;
         }
+        &__medium-4--larger{
+            width: 37%;
+            float: left;
+        }
         &__medium-6{
             width: 50%;
             float: left;
@@ -47,6 +51,10 @@
         &__medium-8{
             float: left;
             width: 66.67%;
+        }
+        &__medium-8--smaller{
+            width: 63%;
+            float: left;
         }
     }
     @mixin atLarge{
