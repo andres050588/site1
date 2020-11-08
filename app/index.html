@@ -1,156 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <header class="site-header">
-        <div class="wrapper">
-            <div class="site-header__logo">
-                <img src="assets/images/icons/clear-view-escapes.svg" alt="icon escapes">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="wrapper">
+                <div class="site-header__logo">
+                    <img src="assets/images/icons/clear-view-escapes.svg" alt="icon escapes">
+                </div>
+                <div class="site-header__menu-icon">
+                    <div class="site-header__menu-icon__middle"></div>
+                </div>
+                <div class="site-header__menu-content">
+                    <div class="site-header__btn-container">
+                        <a class="btn open-modal" href="#">Get in Touch</a>
+                    </div>
+                    
+                    <nav class="site-header__nav">
+                        <ul class="site-header__nav__list">
+                            <li class="site-header__nav__list__el"><a href="#our-beginning" id="our-beginning-link">Our Beginning</a></li>
+                            <li class="site-header__nav__list__el"><a href="#features" id="features-link">Features</a></li>
+                            <li class="site-header__nav__list__el"><a href="#testimonials" id="testimonials-link">Testimonials</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <div class="site-header__menu-icon">
-                <div class="site-header__menu-icon__middle"></div>
+        </header>
+
+        <main class="large-hero">
+            <picture>
+                <source srcset="assets/images/hero--large.jpg 1920w, assets/images/hero--large-hi-dpi.jpg 3840w" media="(min-width: 1380px)">
+                <source srcset="assets/images/hero--medium.jpg 1380w, assets/images/hero--medium-hi-dpi.jpg 2760w" media="(min-width: 990px)">
+                <source srcset="assets/images/hero--small.jpg 990w, assets/images/hero--small-hi-dpi.jpg 1980w" media="(min-width: 640px)">
+                <img srcset="assets/images/hero--smaller.jpg 640w, assets/images/hero--smaller-hi-dpi.jpg 1280w" alt="Ocean view and mountains" class="large-hero__image">
+            </picture>
+            <div class="large-hero__text-content">
+                    <div class="wrapper">
+                    <h1 class="large-hero__title">Your Clarity</h1>
+                    <h2 class="large-hero__subtitle">One Trip Away</h2>
+                    <p class="large-hero__description">We create soul restoring journeys that inspire you to be you.</p>
+                    <p><a class="btn btn--orange btn--large open-modal" href="#">Get Started Today</a></p>
+                </div>
             </div>
-            <div class="site-header__menu-content">
-                <div class="site-header__btn-container">
-                    <a class="btn" href="#">Get in Touch</a>
+        </main>
+        <section id="our-beginning" class="page-section" data-matching-link='#our-beginning-link'>
+            <div class="wrapper">
+                <h2 class="headline headline--centered headline-b-margin-small headline--light">The first trip we planned <strong class="headline--strong">was our own</strong></h2>
+                <h3 class="headline headline--centered headline--small headline--narrow headline--orange headline--b-margin-large">Ever since, we&rsquo;ve been working to make travel <strong>better for everyone</strong></h3>
+                <div class="wrapper wrapper--medium wrapper--b-margin">
+                    <img sizes="(min-width: 970px) 976, 100vw" srcset="assets/images/first-trip-low-res-i.jpg 565w, assets/images/first-trip-i.jpg 976w, assets/images/first-trip-hi-dpi-i.jpg 1952w," alt="couple walking down a street.">
+                </div>
+
+                <div class="row row__gutters">
+                    <div class="row__medium-4 row__medium-4--larger row__b-margin-until-medium">
+                        <picture>
+                            <source sizes="404px" srcset="assets/images/our-start-i.jpg 404w, assets/images/our-start-hi-dpi-i.jpg 808w" media="(min-width: 1020px)" srcset="">
+                            <source sizes="380px" srcset="assets/images/our-start-portrait-i.jpg 382w, assets/images/our-start-portrait-hi-dpi-i.jpg 764w" media="(min-width: 800px)" >
+                            <img srcset="assets/images/our-start-landscape-i.jpg 800w, assets/images/our-start-landscapehi-dpi-i.jpg 1600w" alt="Our fonder Jane Doe">
+                        </picture> 
+                    </div>
+                    <div class="row__medium-8 row__medium-8--smaller">
+                        <h2 class="headline headline--no-t-margin">Here&rsquo;s how we got started&hellip;</h2>
+                        <div class="generic-content-container">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum atque accusantium cupiditate eum similique nobis aperiam ullam cumque in <a href="#"> quidem consequuntur animi </a>repellendus vero quisquam nam libero, quas expedita quos?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolorum dicta quas ea vero voluptas! Ad consectetur deleniti <strong>voluptas iusto aliquam</strong> soluta. Libero perferendis ea placeat ipsam cupiditate tenetur explicabo?</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus voluptate eveniet doloribus, corrupti sit enim unde fugit? Voluptates, vitae obcaecati hic dolore libero architecto deserunt quis, doloribus cumque, <strong> eveniet porro</strong>.</p>
+                        </div>
+                    </div>
                 </div>
                 
-                <nav class="site-header__nav">
-                    <ul class="site-header__nav__list">
-                        <li class="site-header__nav__list__el"><a href="#our-beginning" id="our-beginning-link">Our Beginning</a></li>
-                        <li class="site-header__nav__list__el"><a href="#features" id="features-link">Features</a></li>
-                        <li class="site-header__nav__list__el"><a href="#testimonials" id="testimonials-link">Testimonials</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
-
-    <main class="large-hero">
-        <picture>
-            <source srcset="assets/images/hero--large.jpg 1920w, assets/images/hero--large-hi-dpi.jpg 3840w" media="(min-width: 1380px)">
-            <source srcset="assets/images/hero--medium.jpg 1380w, assets/images/hero--medium-hi-dpi.jpg 2760w" media="(min-width: 990px)">
-            <source srcset="assets/images/hero--small.jpg 990w, assets/images/hero--small-hi-dpi.jpg 1980w" media="(min-width: 640px)">
-            <img srcset="assets/images/hero--smaller.jpg 640w, assets/images/hero--smaller-hi-dpi.jpg 1280w" alt="Ocean view and mountains" class="large-hero__image">
-        </picture>
-        <div class="large-hero__text-content">
-                <div class="wrapper">
-                <h1 class="large-hero__title">Your Clarity</h1>
-                <h2 class="large-hero__subtitle">One Trip Away</h2>
-                <p class="large-hero__description">We create soul restoring journeys that inspire you to be you.</p>
-                <p><a class="btn btn--orange btn--large" href="#">Get Started Today</a></p>
-            </div>
-        </div>
-    </main>
-    <section id="our-beginning" class="page-section" data-matching-link='#our-beginning-link'>
-        <div class="wrapper">
-            <h2 class="headline headline--centered headline-b-margin-small headline--light">The first trip we planned <strong class="headline--strong">was our own</strong></h2>
-            <h3 class="headline headline--centered headline--small headline--narrow headline--orange headline--b-margin-large">Ever since, we&rsquo;ve been working to make travel <strong>better for everyone</strong></h3>
-            <div class="wrapper wrapper--medium wrapper--b-margin">
-                <img sizes="(min-width: 970px) 976, 100vw" srcset="assets/images/first-trip-low-res-i.jpg 565w, assets/images/first-trip-i.jpg 976w, assets/images/first-trip-hi-dpi-i.jpg 1952w," alt="couple walking down a street.">
             </div>
 
-            <div class="row row__gutters">
-                <div class="row__medium-4 row__medium-4--larger row__b-margin-until-medium">
-                    <picture>
-                        <source sizes="404px" srcset="assets/images/our-start-i.jpg 404w, assets/images/our-start-hi-dpi-i.jpg 808w" media="(min-width: 1020px)" srcset="">
-                        <source sizes="380px" srcset="assets/images/our-start-portrait-i.jpg 382w, assets/images/our-start-portrait-hi-dpi-i.jpg 764w" media="(min-width: 800px)" >
-                        <img srcset="assets/images/our-start-landscape-i.jpg 800w, assets/images/our-start-landscapehi-dpi-i.jpg 1600w" alt="Our fonder Jane Doe">
-                    </picture> 
-                </div>
-                <div class="row__medium-8 row__medium-8--smaller">
-                    <h2 class="headline headline--no-t-margin">Here&rsquo;s how we got started&hellip;</h2>
-                    <div class="generic-content-container">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum atque accusantium cupiditate eum similique nobis aperiam ullam cumque in <a href="#"> quidem consequuntur animi </a>repellendus vero quisquam nam libero, quas expedita quos?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolorum dicta quas ea vero voluptas! Ad consectetur deleniti <strong>voluptas iusto aliquam</strong> soluta. Libero perferendis ea placeat ipsam cupiditate tenetur explicabo?</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus voluptate eveniet doloribus, corrupti sit enim unde fugit? Voluptates, vitae obcaecati hic dolore libero architecto deserunt quis, doloribus cumque, <strong> eveniet porro</strong>.</p>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-
-    </section>
-    <section id="features" class="page-section page-section--blue" data-matching-link="#features-link">
-        <div class="wrapper">
-            <h2 class="section-title"><img class="section-title__icon" src="assets/images/icons/star.svg" alt="star svg"> Our <strong>Features</strong></h2>
-            <div class="row row__gutters-large  generic-content-container">
-                <div class="row__medium-6">
-                    <div class="feature-item">
-                        <img class="feature-item__icon" src="assets/images/icons/rain.svg" alt="rain svg">
-                        <h3 class="feature-item__title">We&rsquo;ll Watch the Weather</h3>
-                        <p>Download our app and we&rsquo;ll send you a notice if it&rsquo;s about to rain in the next 20 minutes around your current location. Agood rain can be refreshing, but sometimes you just want to stay dry.</p>
-                    </div>
-
-                    <div class="feature-item">
-                        <img class="feature-item__icon" src="assets/images/icons/globe.svg" alt="globe svg">
-                        <h3 class="feature-item__title">Global guides</h3>
-                        <p>We&rsquo;ve scoured the entire planet for the best retreats and beautiful vistas.If there&rsquo;s a corner of the world you want to escape to we know the most scenic and inspiring locations.</p>
-                    </div>
-                </div>
-
-                <div class="row__medium-6">
-                    <div class="feature-item">
-                        <img class="feature-item__icon" src="assets/images/icons/wifi.svg" alt="wifi svg">
-                        <h3 class="feature-item__title">Wifi Waypoints</h3>
-                        <p>We only send you on trips to places we can personally vouch for as being amazing. Which means we&rsquo;ve mapped out where local wi-fi spots are and marked them in our app's map view.</p>
-                    </div>
-
-                    <div class="feature-item">
-                        <img class="feature-item__icon" src="assets/images/icons/fire.svg" alt="fire svg">
-                        <h3 class="feature-item__title">Survival Kit</h3>
-                        <p>Every time you book an escape with us we send you a survival kit with the finest materials. The kit will allow you to setup a tent, start a fire, scratch your own back and lower your taxes.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="testimonials" class='page-section page-section--testimonials page-section__no-b-padding-until-large' data-matching-link="#testimonials-link">
-        <div class="wrapper wrapper__no-padding-until-large">
-            <h2 class="section-title section-title-blue"><img class="section-title-blue__icon" src="assets/images/icons/comment.svg" alt="comment"> Our<strong> Testimonials</strong></h2>
-
-            <div class="row row__gutters row__gutters-small row__equal-hight-on-large  row--t-padding generic-content-container">
-                <div class="row__large-4">
-                    <div class="testimonial">
-                        <div class="testimonial__photo">
-                            <img sizes="160px" srcset="assets/images/testimonial-jane.jpg 160w, assets/images/testimonial-jane-hi-dpi-i.jpg 320w" alt="jane">
+        </section>
+        <section id="features" class="page-section page-section--blue" data-matching-link="#features-link">
+            <div class="wrapper">
+                <h2 class="section-title"><img class="section-title__icon" src="assets/images/icons/star.svg" alt="star svg"> Our <strong>Features</strong></h2>
+                <div class="row row__gutters-large  generic-content-container">
+                    <div class="row__medium-6">
+                        <div class="feature-item">
+                            <img class="feature-item__icon" src="assets/images/icons/rain.svg" alt="rain svg">
+                            <h3 class="feature-item__title">We&rsquo;ll Watch the Weather</h3>
+                            <p>Download our app and we&rsquo;ll send you a notice if it&rsquo;s about to rain in the next 20 minutes around your current location. Agood rain can be refreshing, but sometimes you just want to stay dry.</p>
                         </div>
-                        <h3 class="testimonial__title">Jane Doe</h3>
-                        <h4 class="testimonial__subtitle">9 Time Escaper</h3>
-                        <p>&ldquo;Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime libero ea, quos quaerat, eos assumenda labore esse cumque est excepturi tempore temporibus ratione maiores corporis nobis quisquam minus suscipit eum.&rdquo;</p>
-                    </div>
-                </div>
-                <div class="row__large-4">
-                    <div class="testimonial">
-                        <div class="testimonial__photo">
-                            <img sizes="160px" srcset="assets/images/testimonial-john.jpg 160w, assets/images/testimonial-john-hi-dpi-i.jpg 320w" alt="john">
+
+                        <div class="feature-item">
+                            <img class="feature-item__icon" src="assets/images/icons/globe.svg" alt="globe svg">
+                            <h3 class="feature-item__title">Global guides</h3>
+                            <p>We&rsquo;ve scoured the entire planet for the best retreats and beautiful vistas.If there&rsquo;s a corner of the world you want to escape to we know the most scenic and inspiring locations.</p>
                         </div>
-                        <h3 class="testimonial__title">John Smith</h3>
-                        <h4 class="testimonial__subtitle">4 Time Escaper</h3>
-                        <p>&ldquo;Lorem ipsum dolor sit amet consectetur,  ducimus aliquam? Cupiditate ab, aspernatur, iste, totam harum earum sequi voluptas consectetur incidunt quas repellendus nesciunt quo!&rdquo;</p>
                     </div>
-                </div>
-                <div class="row__large-4">
-                    <div class="testimonial testimonial--last">
-                        <div class="testimonial__photo">
-                            <img sizes="160px" srcset="assets/images/testimonial-cat.jpg 160w, assets/images/testimonial-cat-hi-dpi-i.jpg 320w" alt="cat">
+
+                    <div class="row__medium-6">
+                        <div class="feature-item">
+                            <img class="feature-item__icon" src="assets/images/icons/wifi.svg" alt="wifi svg">
+                            <h3 class="feature-item__title">Wifi Waypoints</h3>
+                            <p>We only send you on trips to places we can personally vouch for as being amazing. Which means we&rsquo;ve mapped out where local wi-fi spots are and marked them in our app's map view.</p>
                         </div>
-                        <h3 class="testimonial__title">Cat McKitty</h3>
-                        <h4 class="testimonial__subtitle">6 Time Escaper</h3>
-                        <p>&ldquo;Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione fuga tenetur dignissimos pariatur ipsa iste quidem perspiciatis cum asperiores mollitia nesciunt illum libero sapiente, repudiandae unde ut deleniti dolores maiores? &rdquo;</p>
+
+                        <div class="feature-item">
+                            <img class="feature-item__icon" src="assets/images/icons/fire.svg" alt="fire svg">
+                            <h3 class="feature-item__title">Survival Kit</h3>
+                            <p>Every time you book an escape with us we send you a survival kit with the finest materials. The kit will allow you to setup a tent, start a fire, scratch your own back and lower your taxes.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <footer class="site-footer">
-        <p><span class="site-footer__text">Copyright &copy; 2020 Clear View Escapes. All right reserved. </span><a class='btn btn--orange' href="#">Get in Touch</a></p>
-    </footer>
-</body>
-<script src="bundled.js"></script>
+        </section>
+
+        <section id="testimonials" class='page-section page-section--testimonials page-section__no-b-padding-until-large' data-matching-link="#testimonials-link">
+            <div class="wrapper wrapper__no-padding-until-large">
+                <h2 class="section-title section-title-blue"><img class="section-title-blue__icon" src="assets/images/icons/comment.svg" alt="comment"> Our<strong> Testimonials</strong></h2>
+
+                <div class="row row__gutters row__gutters-small row__equal-hight-on-large  row--t-padding generic-content-container">
+                    <div class="row__large-4">
+                        <div class="testimonial">
+                            <div class="testimonial__photo">
+                                <img sizes="160px" srcset="assets/images/testimonial-jane.jpg 160w, assets/images/testimonial-jane-hi-dpi-i.jpg 320w" alt="jane">
+                            </div>
+                            <h3 class="testimonial__title">Jane Doe</h3>
+                            <h4 class="testimonial__subtitle">9 Time Escaper</h3>
+                            <p>&ldquo;Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime libero ea, quos quaerat, eos assumenda labore esse cumque est excepturi tempore temporibus ratione maiores corporis nobis quisquam minus suscipit eum.&rdquo;</p>
+                        </div>
+                    </div>
+                    <div class="row__large-4">
+                        <div class="testimonial">
+                            <div class="testimonial__photo">
+                                <img sizes="160px" srcset="assets/images/testimonial-john.jpg 160w, assets/images/testimonial-john-hi-dpi-i.jpg 320w" alt="john">
+                            </div>
+                            <h3 class="testimonial__title">John Smith</h3>
+                            <h4 class="testimonial__subtitle">4 Time Escaper</h3>
+                            <p>&ldquo;Lorem ipsum dolor sit amet consectetur,  ducimus aliquam? Cupiditate ab, aspernatur, iste, totam harum earum sequi voluptas consectetur incidunt quas repellendus nesciunt quo!&rdquo;</p>
+                        </div>
+                    </div>
+                    <div class="row__large-4">
+                        <div class="testimonial testimonial--last">
+                            <div class="testimonial__photo">
+                                <img sizes="160px" srcset="assets/images/testimonial-cat.jpg 160w, assets/images/testimonial-cat-hi-dpi-i.jpg 320w" alt="cat">
+                            </div>
+                            <h3 class="testimonial__title">Cat McKitty</h3>
+                            <h4 class="testimonial__subtitle">6 Time Escaper</h3>
+                            <p>&ldquo;Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione fuga tenetur dignissimos pariatur ipsa iste quidem perspiciatis cum asperiores mollitia nesciunt illum libero sapiente, repudiandae unde ut deleniti dolores maiores? &rdquo;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="site-footer">
+            <p><span class="site-footer__text">Copyright &copy; 2020 Clear View Escapes. All right reserved. </span><a class='btn btn--orange open-modal' href="#">Get in Touch</a></p>
+        </footer>
+        
+        <script src="bundled.js"></script>
+    </body>
 </html>

@@ -9,6 +9,10 @@
         max-width: 980px;
     }
 
+    &--narrow{
+        max-width: 470px;
+    }
+
     &__site-header{
         max-width: 1200px;
         margin: 0 100px 0 100px;
